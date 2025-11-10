@@ -62,12 +62,23 @@
   * {
     @apply border-border;
   }
+
+  html {
+    @apply overflow-x-hidden;
+    direction: ltr;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overflow-x-hidden;
+    direction: ltr;
   }
 
   ::-webkit-scrollbar {
     @apply h-2 w-2;
+  }
+
+  ::-webkit-scrollbar:horizontal {
+    @apply h-2;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -76,6 +87,11 @@
 
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-foreground/30;
+  }
+
+  /* Ensure horizontal scrollbar appears at bottom */
+  ::-webkit-scrollbar-track:horizontal {
+    @apply bottom-0;
   }
 }
 
@@ -86,5 +102,9 @@
 
     /* responsive for xl screen */
     2xl:max-w-screen-xl;
+  }
+
+  .bg-gradient-radial {
+    background-image: radial-gradient(circle, var(--tw-gradient-stops));
   }
 }
