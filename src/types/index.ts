@@ -3,6 +3,8 @@
  * @license Apache-2.0
  */
 
+import type { ReactElement } from 'react';
+
 type MenuItem = {
   href: string;
   label: string;
@@ -11,7 +13,7 @@ type MenuItem = {
 
 type SubmenuItem = {
   href: string;
-  icon: JSX.Element;
+  icon: ReactElement;
   label: string;
   desc: string;
 };
