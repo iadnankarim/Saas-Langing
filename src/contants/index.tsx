@@ -6,7 +6,7 @@
 /**
  * Types
  */
-import { MenuItem } from '@/types';
+import type { MenuItem } from '@/types';
 
 /**
  * Assets
@@ -16,7 +16,7 @@ import {
   Building2,
   Component,
   Code,
-  BetweenHorizonalEnd,
+  BetweenHorizontalEnd,
   BrainCircuit,
   Blocks,
   Terminal,
@@ -79,7 +79,7 @@ export const navMenu: MenuItem[] = [
       },
       {
         href: '#',
-        icon: <BetweenHorizonalEnd />,
+        icon: <BetweenHorizontalEnd />,
         label: 'AnalytiX Elements',
         desc: 'Unstyled UI primitives for endless customization. Powered by AnalytiX',
       },
