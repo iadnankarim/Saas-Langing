@@ -63,8 +63,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground
-    h-[300vh];
+    @apply bg-background text-foreground;
   }
 
   ::-webkit-scrollbar {
