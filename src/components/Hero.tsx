@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='relative overflow-hidden bg-gradient-to-b from-background via-background/80 to-background/40 py-16 md:py-24'>
       <div className='pointer-events-none absolute inset-0 mx-auto max-w-4xl rounded-full bg-primary/10 blur-3xl' />
 
-      <div className='container relative z-10'>
+      <div className='container relative z-0'>
         <div className='mx-auto max-w-3xl text-center'>
           <p className='  inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.35em] text-primary/80 backdrop-blur'>
             <span className='inline-block h-2 w-2 rounded-full bg-primary shadow-[0_0_0_2px_rgba(59,130,246,0.15)]' />

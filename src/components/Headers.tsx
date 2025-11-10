@@ -16,7 +16,7 @@ import {
 
 const Headers = () => {
   return (
-    <header className=' h-16 grid grid-cols-1 items-center md:h-20 lg:h-24'>
+    <header className='relative z-50 h-16 grid grid-cols-1 items-center md:h-20 lg:h-24'>
       <div className='container flex justify-between '>
         <Logo variant='icon' />
 
