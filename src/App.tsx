@@ -1,6 +1,8 @@
-import Brand from '@/components/Brand';
 import Headers from './components/Headers';
 import Hero from './components/Hero';
+
+import Brand from './components/Brand';
+import Feature from './components/Feature';
 
 const App = () => {
   return (
@@ -10,6 +12,7 @@ const App = () => {
       <main>
         <Hero />
         <Brand />
+        <Feature />
       </main>
     </div>
   );

@@ -1,12 +1,7 @@
 /**
- * @copyright 2024 codewithsadee
- * @license Apache-2.0
- */
-
-/**
  * Node modules
  */
-import { Variants } from 'motion/react';
+import type { Variants } from 'motion/react';
 
 export const fadeIn: Variants = {
   start: {
