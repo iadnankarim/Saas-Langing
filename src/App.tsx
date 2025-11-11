@@ -1,3 +1,4 @@
+import Brand from '@/components/Brand';
 import Headers from './components/Headers';
 import Hero from './components/Hero';
 
@@ -8,6 +9,7 @@ const App = () => {
 
       <main>
         <Hero />
+        <Brand />
       </main>
     </div>
   );

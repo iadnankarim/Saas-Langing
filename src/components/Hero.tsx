@@ -270,7 +270,7 @@ const Hero = () => {
   });
 
   // 👇 Map scroll progress (0→1) to scale range (0.9→1.1)
-  const zoomScale = useTransform(scrollYProgress, [0, 1], [0.85, 1.15]);
+  const zoomScale = useTransform(scrollYProgress, [0, 1], [0.85, 1.2]);
 
   // 👇 Add spring for smooth animation
   const smoothScale = useSpring(zoomScale, {
@@ -375,3 +375,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// 1/27/58
