@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Brand from './components/Brand';
 import Feature from './components/Feature';
 import Process from './components/Process';
+import Overview from './components/Overview';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Brand />
         <Feature />
         <Process />
+        <Overview />
       </main>
     </div>
   );
