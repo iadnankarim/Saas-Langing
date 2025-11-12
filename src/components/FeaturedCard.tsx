@@ -66,10 +66,11 @@
 import { motion, useMotionValue, frame } from 'motion/react';
 import * as variants from '@/lib/motionVariants';
 import { useCallback, useRef, useState } from 'react';
+import type { ReactNode } from 'react';
 
 type FeaturedProps = {
   classes?: string;
-  children?: JSX.Element;
+  children?: ReactNode;
 };
 
 const FeaturedCard = ({ classes = '', children }: FeaturedProps) => {
@@ -82,7 +83,7 @@ const FeaturedCard = ({ classes = '', children }: FeaturedProps) => {
   const y = useMotionValue(0);
 
   const handleMouseMove = useCallback(
-    (event: MouseEvent) => {
+    (event: React.MouseEvent<HTMLDivElement>) => {
       const rect = cardRef.current?.getBoundingClientRect();
       if (!rect) return;
 
