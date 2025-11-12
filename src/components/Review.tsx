@@ -1,12 +1,11 @@
 import { motion } from 'framer-motion';
 
 import * as variants from '@/lib/motionVariants';
-import { overviewData, reviewData } from '@/contants';
+import { reviewData } from '@/contants';
 import {
   Card,
   //   CardAction,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
