@@ -399,23 +399,23 @@ export const footerData = {
   copyright: '© 2024 codewithsadee',
   socialLinks: [
     {
-      href: 'https://x.com/codewithsadee_',
+      href: '#',
       icon: <Twitter size={18} />,
     },
     {
-      href: 'https://github.com/codewithsadee',
+      href: '#',
       icon: <Github size={18} />,
     },
     {
-      href: 'https://www.linkedin.com/in/codewithsadee/',
+      href: '#',
       icon: <Linkedin size={18} />,
     },
     {
-      href: 'https://www.instagram.com/codewithsadee',
+      href: '#',
       icon: <Instagram size={18} />,
     },
     {
-      href: 'https://www.youtube.com/codewithsadee',
+      href: '#',
       icon: <Youtube size={18} />,
     },
   ],

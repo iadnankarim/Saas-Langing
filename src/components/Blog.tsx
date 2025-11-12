@@ -2,11 +2,12 @@ import { motion } from 'framer-motion';
 
 import * as variants from '@/lib/motionVariants';
 import { blogData } from '@/contants';
+
 import {
   Card,
   //   CardAction,
   CardContent,
-  CardDescription,
+  //   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
